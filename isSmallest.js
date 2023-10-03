@@ -1,16 +1,24 @@
 // Find the smallest number in an array
 
-const array = [2, 5, 3, 4, 1] // 1
-let smallest = array[0]; // 1
+const getMin = (n) => { 
+    let smallest = n[0]; // 1
 
-for (let i = 0; i < array.length; i++) { // 1
-    console.log('Running') // 5
-    if (array[i] < smallest) {
-        console.log('Running inside') // 5
-        smallest = array[i];
+    for (let i = 0; i < n.length; i++) { // 1
+        // console.log('Running')
+        if (n[i] < smallest) { // n
+            // console.log('Running inside')
+            smallest = n[i]; //  // 0 (Best case), 2 (Worst case), 1 (Avg. case)
+        }
+        
     }
-    
+    return smallest; // 1
 }
-console.log(smallest); // 1
 
-// T = 1 + 1 + 1 + n + n + 1
+
+// Best case: [1, 2, 3] => O(n) => Linear Time
+// Worst case: [3, 2, 1] => O(n) => Linear Time
+// Average: [2, 1, 3] => O(n) => Linear Time
+
+console.log(getMin([1, 2, 3]));
+console.log(getMin([9, 8, 3, 5, 1]));
+console.log(getMin([10, 3, 8, 6]));
