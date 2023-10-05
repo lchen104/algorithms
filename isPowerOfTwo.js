@@ -25,7 +25,7 @@ const isPowerOfTwo = (n) => {
         return false;
     }
 
-    // re-factored above code with bitwise operators
+    // re-factored above code with bitwise operators: https://www.w3schools.com/js/js_bitwise.asp
     // reference URL: https://stackoverflow.com/questions/4678333/n-n-1-what-does-this-expression-do
     return (n & (n - 1)) === 0; // O(1)
 }
