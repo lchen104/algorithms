@@ -1,3 +1,4 @@
+// Return the sum of n nunber of elements
 // Sum up input n
 // T => Linear Time Complexity => O(n)
 // const sumUp = (n) => {
