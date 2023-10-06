@@ -1,4 +1,4 @@
-// Palindrum Algorithm
+// Palindrome Algorithm
 // Check if n word is a palindrum
 
 const palindrome = (n) => {
@@ -16,6 +16,6 @@ const palindrome = (n) => {
     
 }
 
-// O(n) => Linear TIme Complexity
+// O(n) => Linear Time Complexity
 
-console.log(palindrome('meat'));
+console.log(palindrome('meatball'));
