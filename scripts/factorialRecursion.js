@@ -1,16 +1,16 @@
-// Factorial algorithm - Returns the sum of each previous element multiplied 
+// Factorial in Recursion algorithm - Returns the sum of each previous element multiplied 
 // Multiply n number of elements to find the factorial
 
+// Re-factored to Recursion
 const factorial = (n) => {
-    let sum = 1;
-    for (let i = 2; i <= n; i++) {
-        sum *= i;
+    if (n === 1 ) {
+        return 1;
     }
-    return sum;
+    return n * factorial(n - 1);
 }
 
 // O(n) => Linear Time Complexity
-// In every function call => O(1)
+// In each function call => O(1)
 // But we trigger multiple function calls => n functions calls
 // T = n * O(1) => O(n)
 // T = 1 * n = n => O(n)

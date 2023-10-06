@@ -1,3 +1,4 @@
+// Fibonacci Algorithm using For Loop
 const fib = (n) => {
     const numbers = [1, 1]; // 1
 
