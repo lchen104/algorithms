@@ -1,4 +1,4 @@
-// Factorial algorithm
+// Factorial algorithm - Returns the sum of each previous element multiplied 
 // Multiply n number of elements to find the factorial
 
 const factorial = (n) => {

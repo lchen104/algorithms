@@ -1,5 +1,5 @@
 // Palindrome Algorithm
-// Check if n word is a palindrum
+// Check if n word is a palindrum (spelled the same when reversed)
 
 const palindrome = (n) => {
     let word = n;

@@ -10,3 +10,5 @@ Learning basic Algorithms and understanding their time complexity
 - sumArray (Return the sum of an array)
 - sumIntergers (Return the sum of n from var start to var end)
 - sumUp (Return the sum of n nunber of elements)
+- Factorial (Return the sum of n number of elements multiplied by one another)
+- Palindrome (Return true if word inputed is a palindrome (spelled the same forwars/backwards))
