@@ -13,8 +13,10 @@ const binarySearch = (sortedArr, element) => {
         const middleIndex = startIndex + Math.floor((endIndex - startIndex) / 2);
         // console.log('MidIndex: ' + middleIndex);
 
+        console.log(startIndex + ':' + middleIndex + ':' + endIndex);
+
         // If element searching for is found, return the middleIndex and exit
-        if (element === sortedArr[middleIndex]) {
+        if (sortedArr[middleIndex] === element) {
             return middleIndex;
         }
 
@@ -29,9 +31,8 @@ const binarySearch = (sortedArr, element) => {
     }
 }
 
-// O(1) => Constant Time Complexity
-// Array MUST be pre-sorted first befoe running binary search
+// O(log n) => Constant Time Complexity
+// Array MUST be pre-sorted first before running binary search
 
 const arr = [1, 5, 9, 13, 99, 100];
-
-console.log(binarySearch(arr, 99));
+console.log(binarySearch(arr, 9));
