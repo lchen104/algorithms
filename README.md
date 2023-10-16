@@ -11,4 +11,8 @@ Learning basic Algorithms and understanding their time complexity
 - sumIntergers (Return the sum of n from var start to var end)
 - sumUp (Return the sum of n nunber of elements)
 - Factorial (Return the sum of n number of elements multiplied by one another)
+- Factorial Recursive (Return the sum of n number of elements multiplied by one another)
 - Palindrome (Return true if word inputed is a palindrome (spelled the same forwars/backwards))
+- Binary Search (Return the index of the element we are searching for)
+- Binary Search (Another way of doing Binary Search)
+- Binary Search Recursive (Binary Search using Recursive)
