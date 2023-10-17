@@ -15,10 +15,27 @@ const sort = (arr) => {
                 newArr[i] = newArr[j];
                 newArr[j] = temp;
             } 
+            // Un-necessary to set since its already in correct order
+            // else {
+            //     temp = newArr[j];
+            //     newArr[j] = newArr[i];
+            //     newArr[j] = temp;
+            // }
         }
     }
     return newArr;
 }
 
-const arr = [11, -3, 2, 9, 4, 5, 17, 8];
-console.log(sort(arr));
+
+// Best case: O(n) => Linear Time Complexity (Already sorted)
+// Average case: Tends to be O(n^2) => Quadratic Time Complexity
+// Worst Case: O(n^2) => Quadratic Time Complexity (Sorted in reverse)
+
+const sortedArray = sort([11, -3, 2, 9, 4, 5]);
+console.log(sortedArray);
+
+
+// rule of thumb
+// one loop => Linear Time
+// two loops => Quadratic Time
+// three loops => Cubic Time

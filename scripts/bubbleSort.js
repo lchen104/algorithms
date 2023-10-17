@@ -27,5 +27,16 @@ const sort = (arr) => {
     return resultArray;
 }
 
-const sortedArray = [11, -3, 2, 9, 4, 5];
-console.log(sort(sortedArray));
+
+// Best case: O(n) => Linear Time Complexity (Already sorted)
+// Average case: Tends to be O(n^2) => Quadratic Time Complexity
+// Worst Case: O(n^2) => Quadratic Time Complexity (Sorted in reverse)
+
+const sortedArray = sort([11, -3, 2, 9, 4, 5]);
+console.log(sortedArray);
+
+
+// rule of thumb
+// one loop => Linear Time
+// two loops => Quadratic Time
+// three loops => Cubic Time
