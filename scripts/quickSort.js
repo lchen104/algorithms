@@ -3,9 +3,13 @@
 const quickSort = (arr) => {
     // copy the array using spread operator
     const newArray = [...arr];
+    console.log('FUNCTION STARTING');
+    console.log(arr);
 
     // exit recursive function
     if (newArray.length <= 1) {
+        console.log('ONLY ONE ITEM - RETURNING');
+        console.log(newArray);
         return newArray;
     }
 
@@ -29,10 +33,15 @@ const quickSort = (arr) => {
             biggerElementsArray.push(currentElement);
         }
     }
+    console.log('AFTER WHILE');
+    console.log(smallerElementsArray);
+    console.log(centerElementsArray);
+    console.log(biggerElementsArray);
 
     const smallerElementsSortedArray = quickSort(smallerElementsArray);
     const biggerElementsSortedArray = quickSort(biggerElementsArray);
     return smallerElementsSortedArray.concat(centerElementsArray, biggerElementsSortedArray);
+    
 }
 
 

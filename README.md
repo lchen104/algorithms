@@ -16,3 +16,6 @@ Learning basic Algorithms and understanding their time complexity
 - Binary Search (Return the index of the element we are searching for)
 - Binary Search (Another way of doing Binary Search)
 - Binary Search Recursive (Binary Search using Recursive)
+- Bubble Sort
+- Quick Sort 
+- Merge Sort
