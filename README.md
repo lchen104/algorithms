@@ -13,9 +13,16 @@ Learning basic Algorithms and understanding their time complexity
 - Factorial (Return the sum of n number of elements multiplied by one another)
 - Factorial Recursive (Return the sum of n number of elements multiplied by one another)
 - Palindrome (Return true if word inputed is a palindrome (spelled the same forwars/backwards))
+
+# Search Alorithms
 - Binary Search (Return the index of the element we are searching for)
 - Binary Search (Another way of doing Binary Search)
 - Binary Search Recursive (Binary Search using Recursive)
+
+# Sorting Algorithms
 - Bubble Sort
 - Quick Sort 
 - Merge Sort
+
+# Recursion Algorithms
+- Recursion

@@ -45,6 +45,7 @@ const printChildrenRecursive = (t) => {
 
     t.children.forEach(child => {
         console.log(child.name);
+        // run the recursion function deeper
         printChildrenRecursive(child);
     })
 }
